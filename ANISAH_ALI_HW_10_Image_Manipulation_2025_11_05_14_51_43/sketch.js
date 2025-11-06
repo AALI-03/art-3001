@@ -5,6 +5,9 @@ Date: Nov. 3rd, AU2025
 Description: Image manipulation of "The Starry Night" by Vincent Van Gogh
 */
 
+//blend()
+//tint()
+
 //let img;
 //let Slices = [];
 var img;
@@ -16,7 +19,7 @@ function preload(){
 function setup() {
   createCanvas(img.width, img.height);
     pixelDensity(1);
-  image(img, 0, 0, 570, 838);
+  image(img, 0, 0, 500, 396);
   loadPixels();
   background(255);
   noStroke();
